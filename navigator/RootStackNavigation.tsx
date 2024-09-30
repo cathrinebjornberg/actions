@@ -1,4 +1,4 @@
-import Home from "../screens/Home";
+import Home from '../screens/Home';
 
 export type PramaList = {
   Home: undefined;
@@ -6,7 +6,5 @@ export type PramaList = {
 };
 
 export default function RootStackNavigation() {
-  return (
-  <RootStackNavigation.Screen name="Home" components={Home} />;
-
+  return <RootStackNavigation.Screen name="Home" components={Home} />;
 }
